@@ -5,7 +5,7 @@ class Maquina_model extends CI_Model {
 	private $table = 'MAQUINA';
     private $id = 'MODELO';
     private $id_tipo = 'ID_TIPO';
-
+    private $altura_trabajo = 'ALTURA_TRABAJO';
     private $select1 = 'ID_TIPO, MODELO, TIPO, ENERGIA, MARCA, ALTURA_TRABAJO, ALTURA_PLATAFORMA, ALTO_BARANDA, LARGO_REPLEGADA, LARGO_PLATAFORMA, ANCHO_PLATAFORMA, CAPACIDAD, PESO,  FOTOMIN, FOTOMAX, DESCRIPCION';
 
     private $select2 = 'ID_TIPO, MODELO, TIPO, ENERGIA, MARCA, CARGA_MAXIMA, ALCANCE_MAXIMO, ALTURA_LEVANTAMIENTO, BRAZO_EXTENDIDO, PESO,  FOTOMIN, FOTOMAX, DESCRIPCION';
@@ -36,6 +36,16 @@ class Maquina_model extends CI_Model {
         $this->db->select($this->id_tipo);
     	$this->db->from($this->table);
     	$query = $this->db->get();
+
+        return $query->result();
+    }
+    public function getAlturas()
+    {
+        $this->db->select($this->altura_trabajo);
+        $this->db->from($this->table);
+        $this->db->where("ALTURA_TRABAJO IS NOT NULL");
+        $this->db->order_by("ALTURA_TRABAJO","asc");
+        $query = $this->db->get();
 
         return $query->result();
     }

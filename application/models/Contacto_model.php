@@ -102,6 +102,63 @@ class Contacto_model extends CI_Model
 
         return $body;
     }
+    public function bodyCotizacion($data)
+    {
+        $body = '<!doctype html>';
+        $body .= '<html lang="en">';
+        $body .= '<head><meta http-equiv="Content-Type" content="text/html; charset=gb18030">';
+        $body .= '</head>';
+        $body .= '<body style=" color:#666;background:#fff;font-size:15px;">';
+        $body .= '<h3>Contacto desde ATS&reg;</h3>';
+        $body .= '<table width="100%">';
+        $body .= '<tr>';
+        $body .= '<td valign="top"><strong>Contacto Desde</strong></td>';
+        $body .= '<td valign="top">:</td>';
+        $body .= '<td valign="top">ATS.cl</td>';
+        $body .= '</tr>';
+        $body .= '<tr>';
+        $body .= '<td><strong>Nombre</strong></td>';
+        $body .= '<td>:</td>';
+        $body .= '<td>' . $data['nombre'] . '</td>';
+        $body .= '</tr>';
+        $body .= '<tr>';
+        $body .= '<td><strong>Email</strong></td>';
+        $body .= '<td>:</td>';
+        $body .= '<td>' . $data['correo'] . '</td>';
+        $body .= '</tr>';
+        $body .= '<tr>';
+        $body .= '<td><strong>Numero Contacto</strong></td>';
+        $body .= '<td>:</td>';
+        $body .= '<td>' . $data['numero']  .'</td>';
+        $body .= '</tr>';
+        $body .= '<tr>';
+        $body .= '<tr>';
+        $body .= '<td><strong>Fecha</strong></td>';
+        $body .= '<td>:</td>';
+        $body .= '<td>' . $data['fecha_contacto'] . '</td>';
+        $body .= '</tr>';
+        $body .= '<tr>';
+        $body .= '<td><strong>Empresa</strong></td>';
+        $body .= '<td>:</td>';
+        $body .= '<td>' . $data['empresa'] . '</td>';
+        $body .= '</tr>';
+        $body .= '<tr>';
+        $body .= '<td><strong>Asunto</strong></td>';
+        $body .= '<td>:</td>';
+        $body .= '<td>' . $data['asunto'] . '</td>';
+        $body .= '</tr>';
+
+        $body .= '<tr>';
+        $body .= '<td><strong>Mensaje</strong></td>';
+        $body .= '<td>:</td>';
+        $body .= '<td>' . $data['mensaje'] . '</td>';
+        $body .= '</tr>';
+        $body .= '</table>';
+        $body .= '</body>';
+        $body .= '</html>';
+
+        return $body;
+    }
 
 }
 

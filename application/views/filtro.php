@@ -36,15 +36,31 @@
                         <button type="submit" class="btn btn-ats btn-block pull-right">Buscar</button>
                     </div>
                 </form>
+
             </div>
+            
+            
         </div>
         </div>
     </div>
+    <br>
+    <CENTER><button id="cotizar" class="btn btn-ats">¿Busca Algo especifico? ¡Cotize haciendo click aqui!</button></CENTER>
 </div>
 
 
 <script>
     $(function(){
         $('.select2').select2();
+        $('#cotizar').click(function (event){
+ 
+            var url = "<?php echo site_url();?>/cotizar";
+            var windowName = "popUp";//$(this).attr("name");
+            var windowSize = "width=650,height=800,menubar=no";
+ 
+            window.open(url, windowName, windowSize);
+ 
+            //event.preventDefault();
+ 
+        });
     })
 </script>
