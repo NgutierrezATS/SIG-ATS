@@ -1,3 +1,4 @@
+
 <div class="clearfix"></div>
 <footer>
     <div class="footer">
@@ -36,3 +37,6 @@
 </div>
 
 </footer>
+</div>
+</body>
+</html>
