@@ -61,4 +61,6 @@ $route['contacto/nuevo']            = 'welcome/contactoNew';
 $route['contacto/success']          = 'welcome/contactoSuccess';
 $route['empresa']                   = 'welcome/empresa';
 $route['maquinas']                  = 'welcome/ejemplo';
+$route['cotizar']            		= 'welcome/cotizar';
+$route['cotizar/send']       		= 'welcome/sendcotizacion';
 
