@@ -222,4 +222,8 @@ class Welcome extends CI_Controller
         $this->load->view('cotizar',$data);
         
     }
+    public function filtrar()
+    {
+        die(var_dump($this->input->post()));
+    }
 }
