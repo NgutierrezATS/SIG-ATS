@@ -56,11 +56,11 @@ $route['translate_uri_dashes'] = FALSE;
 $route['maquinas/tipo']      		= 'welcome/buscartipo';
 $route['maquinas/modelo']    		= 'welcome/buscarmodelo';
 $route['maquinaria']    			= 'welcome/maquinaria';
-$route['contacto']  				= 'welcome/contacto';
-$route['contacto/nuevo']            = 'welcome/contactoNew';
+$route['contacto']  				= 'welcome/Contacto';
 $route['contacto/success']          = 'welcome/contactoSuccess';
 $route['empresa']                   = 'welcome/empresa';
 $route['maquinas']                  = 'welcome/ejemplo';
 $route['cotizar']            		= 'welcome/cotizar';
 $route['cotizar/send']       		= 'welcome/sendcotizacion';
+$route['contacto/send']       		= 'welcome/sendContacto';
 

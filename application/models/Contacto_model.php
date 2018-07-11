@@ -60,9 +60,9 @@ class Contacto_model extends CI_Model
         $body .= '<td valign="top">ATS.cl</td>';
         $body .= '</tr>';
         $body .= '<tr>';
-        $body .= '<td><strong>Nombre</strong></td>';
+        $body .= '<td><strong>EMPRESA</strong></td>';
         $body .= '<td>:</td>';
-        $body .= '<td>' . $data['NOMBRE'] . '</td>';
+        $body .= '<td>' . $data['EMPRESA'] . '</td>';
         $body .= '</tr>';
         $body .= '<tr>';
         $body .= '<td><strong>Email</strong></td>';
@@ -86,9 +86,9 @@ class Contacto_model extends CI_Model
         $body .= '<td>' . $data['EMPRESA'] . '</td>';
         $body .= '</tr>';
         $body .= '<tr>';
-        $body .= '<td><strong>Asunto</strong></td>';
+        $body .= '<td><strong>Tipo</strong></td>';
         $body .= '<td>:</td>';
-        $body .= '<td>' . $data['ASUNTO'] . '</td>';
+        $body .= '<td>' . $data['TIPO'] . '</td>';
         $body .= '</tr>';
 
         $body .= '<tr>';

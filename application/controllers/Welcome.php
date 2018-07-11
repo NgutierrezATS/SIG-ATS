@@ -7,6 +7,7 @@ class Welcome extends CI_Controller
     public function __construct()
     {
         parent::__construct();
+
         $this->load->model('maquina_model', 'maquina');
         $this->load->model('tipo_model', 'tipo');
         $this->load->model('contacto_model', 'contacto');
@@ -83,40 +84,55 @@ class Welcome extends CI_Controller
 
     public function Contacto()
     {
+        $this->load->helper('form');
+        $data['tipos'] = $this->tipo->all();
         $this->load->view('templates/header');
-        $this->load->view('contacto/contacto');
+        $this->load->view('contacto/contacto',$data);
         $this->load->view('templates/footer');
     }
 
-    public function contactoNew()
-    {
+   
+    
+     public function sendContacto(){
+       
+        
+        
+        //$this->load->view('templates/header');
         if ($this->input->post()) {
-            $nombre = $this->input->post('nombre');
+            $tipo = $this->input->post('tipo');
+            $rut = $this->input->post('rut');
             $correo = $this->input->post('email');
             $numero = $this->input->post('numero');
             $empresa = $this->input->post('empresa');
-            $asunto = $this->input->post('asunto');
             $mensaje = $this->input->post('mensaje');
+            
+            if ((empty($correo)) || (empty($tipo)) || (empty($numero)) || (empty($empresa))) {
+                //$this->contacto();
+                redirect('welcome/Contacto', 'refresh ');
+                
 
-            if ((empty($nombre)) || (empty($correo)) || (empty($asunto)) || (empty($mensaje)) || (empty($numero)) || (empty($empresa))) {
-                redirect('welcome/contacto', 'refresh ');
             } else {
                 $now = date('Y-m-d H:i:s');
                 $data = array(
-                    'NOMBRE' => $nombre,
+                    'RUT' => $rut,
+                    'EMPRESA' => $empresa,
                     'CORREO' => $correo,
                     'NUMERO' => $numero,
-                    'EMPRESA' => $empresa,
                     'FECHA_CONTACTO' => $now,
-                    'ASUNTO' => $asunto,
+                    'TIPO' => $tipo,
                     'MENSAJE' => $mensaje
                 );
-                $this->contacto->insert($data);
-                $this->sendEmailUser($data);
+
+                //$this->contacto->insert($data);
+                //$this->sendEmailUser($data);
                 $this->sendEmailClient($data);
-                redirect('contacto/success', 'refresh');
+                redirect('welcome/contactoSuccess', 'refresh');
             }
         }
+        else{
+             die(var_dump($this->input->post()));
+        }
+        //$this->load->view('templates/footer');
 
     }
 
@@ -132,10 +148,10 @@ class Welcome extends CI_Controller
         $this->load->library("email");
         $configGmail = array(
             'protocol' => 'smtp',
-            'smtp_host' => 'ssl://smtp.gmail.com',
+            'smtp_host' => 'ssl://mail.ats.cl',
             'smtp_port' => 465,
-            'smtp_user' => '',
-            'smtp_pass' => '',
+            'smtp_user' => 'ngutierrez',
+            'smtp_pass' => 'Nino.1234',
             'mailtype' => 'html',
             'charset' => 'utf-8',
             'newline' => "\r\n"
@@ -143,6 +159,7 @@ class Welcome extends CI_Controller
         $this->email->initialize($configGmail);
         $this->email->from('contacto@ats.cl');
         $this->email->to($data['CORREO']);
+        //$this->email->to($data['CORREO']);
         $this->email->subject('Contacto desde ATS.cl');
         $this->email->message($this->contacto->bodyUser($data));
         $this->email->send();
@@ -150,23 +167,26 @@ class Welcome extends CI_Controller
 
     public function sendEmailClient($data)
     {
-        $this->load->library("email");
-        $configGmail = array(
+        
+        $config = array(
             'protocol' => 'smtp',
-            'smtp_host' => 'ssl://smtp.gmail.com',
+            'smtp_host' => 'smtp.ats.cl',
             'smtp_port' => 465,
-            'smtp_user' => '',
-            'smtp_pass' => '',
+            'smtp_user' => 'ngutierrez@ats.cl',
+            'smtp_pass' => 'Nino.1234',
             'mailtype' => 'html',
             'charset' => 'utf-8',
             'newline' => "\r\n"
         );
-        $this->email->initialize($configGmail);
+        $this->load->library("email",$config);
+        //$this->email->initialize($config);
         $this->email->from('contacto@ats.cl');
-        $this->email->to($data['CORREO']);
+        $this->email->to('ngutierrez@ats.cl');
         $this->email->subject('Contacto desde ATS.cl');
         $this->email->message($this->contacto->bodyClient($data));
+
         $this->email->send();
+        die(var_dump($this->email));
     }
     public function sendCotizacion()
     {
