@@ -246,4 +246,13 @@ class Welcome extends CI_Controller
     {
         die(var_dump($this->input->post()));
     }
+
+    public function buscarmaquina($tipo)
+    {
+        $data['maquinas'] = $this->maquina->all($tipo);
+        $this->load->view('templates/header');
+        $this->load->view('maquinas/maquinas', $data);
+        $this->load->view('templates/footer');
+
+    }
 }

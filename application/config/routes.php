@@ -55,6 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['maquinas/tipo']      		= 'welcome/buscartipo';
 $route['maquinas/modelo']    		= 'welcome/buscarmodelo';
+$route['maquinas/(:num)']    		= 'welcome/buscarmaquina/$1';
 $route['maquinaria']    			= 'welcome/maquinaria';
 $route['contacto']  				= 'welcome/Contacto';
 $route['contacto/success']          = 'welcome/contactoSuccess';

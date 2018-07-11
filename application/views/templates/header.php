@@ -32,7 +32,7 @@
 
     
 <header class="main-header">
-  <nav class="navbar navbar-expand-lg navbar-inverse ">
+  <nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
     <a class="navbar-brand" href="<?php echo site_url(); ?>/welcome"><img width="50%" src="<?php echo base_url()."assets/"; ?>slider/img/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -52,14 +52,15 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <h6 class="dropdown-header">Plataformas</h6>
-            <a class="dropdown-item" href="#">Elevadores personales</a>
-            <a class="dropdown-item" href="#">Elevadores Tijeras</a>
-            <a class="dropdown-item" href="#">Brazos articulados</a>
-            <a class="dropdown-item" href="#">Brazos telescopicos</a>
+            <a class="dropdown-item" href="<?php echo site_url(); ?>/maquinas/1">Elevadores Tijeras</a>
+            <a class="dropdown-item" href="<?php echo site_url(); ?>/maquinas/2">Brazos Articulados</a>
+            <a class="dropdown-item" href="<?php echo site_url(); ?>/maquinas/3">Brazos Telescópicos</a>
             <div class="dropdown-divider"></div>
             <h6 class="dropdown-header">Manipuladores</h6>
+            <a class="dropdown-item" href="<?php echo site_url(); ?>/maquinas/4">Manipuladores Telescópicos</a>
             <div class="dropdown-divider"></div>
             <h6 class="dropdown-header">Torres</h6>
+            <a class="dropdown-item" href="<?php echo site_url(); ?>/maquinas/5">Torre de Iluminación</a>
           </div>
         </li>
         <li class="nav-item">

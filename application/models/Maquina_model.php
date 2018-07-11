@@ -6,14 +6,16 @@ class Maquina_model extends CI_Model {
     private $id = 'MODELO';
     private $id_tipo = 'ID_TIPO';
     private $altura_trabajo = 'ALTURA_TRABAJO';
-    private $select1 = 'ID_TIPO, MODELO, TIPO, ENERGIA, MARCA, ALTURA_TRABAJO, ALTURA_PLATAFORMA, ALTO_BARANDA, LARGO_REPLEGADA, LARGO_PLATAFORMA, ANCHO_PLATAFORMA, CAPACIDAD, PESO,  FOTOMIN, FOTOMAX, DESCRIPCION';
+    private $select1 = 'ID_TIPO, ID_FOTO, MODELO, TIPO, ENERGIA, MARCA, ALTURA_TRABAJO, ALTURA_PLATAFORMA, ALTO_BARANDA, LARGO_REPLEGADA, LARGO_PLATAFORMA, ANCHO_PLATAFORMA, CAPACIDAD, PESO, FICHA';
 
-    private $select2 = 'ID_TIPO, MODELO, TIPO, ENERGIA, MARCA, CARGA_MAXIMA, ALCANCE_MAXIMO, ALTURA_LEVANTAMIENTO, BRAZO_EXTENDIDO, PESO,  FOTOMIN, FOTOMAX, DESCRIPCION';
+    private $select2 = 'ID_TIPO, ID_FOTO, MODELO, TIPO, ENERGIA, MARCA, CARGA_MAXIMA, ALCANCE_MAXIMO, ALTURA_LEVANTAMIENTO, BRAZO_EXTENDIDO, PESO, FICHA';
 
-    private $select3 = 'ID_TIPO, MODELO, TIPO, ENERGIA, MARCA, ALTURA, ANCHO_REPLEGADO, ANCHO_EXTENDIDO, TORRE_REPLEGADA, TOMA_CORRIENTE, LAMPARA_HALOGENA, GENERADOR, PESO,  FOTOMIN, FOTOMAX, DESCRIPCION';
+    private $select3 = 'ID_TIPO, ID_FOTO, MODELO, TIPO, ENERGIA, MARCA, ALTURA, ANCHO_REPLEGADO, ANCHO_EXTENDIDO, TORRE_REPLEGADA, TOMA_CORRIENTE, LAMPARA_HALOGENA, GENERADOR, PESO, FICHA';
 
     private $table_tipo = 'TIPO';
-    private $join_tipo = 'TIPO.ID = MAQUINA.ID_TIPO';
+    private $join_tipo  = 'TIPO.ID = MAQUINA.ID_TIPO';
+    private $table_foto = 'FOTO'; 
+    private $join_foto  = 'FOTO.ID = MAQUINA.ID_FOTO';
 
 	public function __construct()
 	{
@@ -21,10 +23,13 @@ class Maquina_model extends CI_Model {
 		$this->load->database();	
 	}
 
-	public function all()
+	public function all($tipo)
     {
         $this->db->select('*');
         $this->db->from($this->table);
+        $this->db->join($this->table_foto, $this->join_foto);
+        $this->db->join($this->table_tipo, $this->join_tipo);
+        $this->db->where($this->id_tipo, $tipo);
         $query = $this->db->get();
 
         return $query->result();
@@ -82,6 +87,11 @@ class Maquina_model extends CI_Model {
         $query = $this->db->get();
 
         return $query->row();
+    }
+
+    public function filtro()
+    {
+        
     }
 
 }
