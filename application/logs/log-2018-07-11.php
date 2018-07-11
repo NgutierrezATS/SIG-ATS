@@ -2671,3 +2671,427 @@ error:1416F086:SSL routines:tls_process_server_certificate:certificate verify fa
 ERROR - 2018-07-11 22:41:17 --> Severity: Warning --> fsockopen(): Failed to enable crypto C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2055
 ERROR - 2018-07-11 22:41:17 --> Severity: Warning --> fsockopen(): unable to connect to ssl://smtp.ats.cl:465 (Unknown error) C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2055
 INFO - 2018-07-11 22:41:17 --> Language file loaded: language/english/email_lang.php
+INFO - 2018-07-11 23:04:02 --> Config Class Initialized
+INFO - 2018-07-11 23:04:02 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:04:02 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:04:02 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:04:02 --> URI Class Initialized
+INFO - 2018-07-11 23:04:02 --> Router Class Initialized
+INFO - 2018-07-11 23:04:02 --> Output Class Initialized
+INFO - 2018-07-11 23:04:02 --> Security Class Initialized
+DEBUG - 2018-07-11 23:04:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:04:02 --> Input Class Initialized
+INFO - 2018-07-11 23:04:02 --> Language Class Initialized
+INFO - 2018-07-11 23:04:02 --> Loader Class Initialized
+INFO - 2018-07-11 23:04:02 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:04:02 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:04:02 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:04:02 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:04:02 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:04:02 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:04:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:04:02 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:04:02 --> Controller Class Initialized
+INFO - 2018-07-11 23:04:02 --> Model Class Initialized
+INFO - 2018-07-11 23:04:02 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:04:05 --> Model Class Initialized
+INFO - 2018-07-11 23:04:05 --> Model Class Initialized
+INFO - 2018-07-11 23:04:05 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:04:05 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:04:05 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:04:05 --> Final output sent to browser
+DEBUG - 2018-07-11 23:04:05 --> Total execution time: 3.2252
+INFO - 2018-07-11 23:04:23 --> Config Class Initialized
+INFO - 2018-07-11 23:04:23 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:04:23 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:04:23 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:04:23 --> URI Class Initialized
+INFO - 2018-07-11 23:04:23 --> Router Class Initialized
+INFO - 2018-07-11 23:04:23 --> Output Class Initialized
+INFO - 2018-07-11 23:04:23 --> Security Class Initialized
+DEBUG - 2018-07-11 23:04:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:04:23 --> Input Class Initialized
+INFO - 2018-07-11 23:04:23 --> Language Class Initialized
+INFO - 2018-07-11 23:04:23 --> Loader Class Initialized
+INFO - 2018-07-11 23:04:23 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:04:23 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:04:23 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:04:23 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:04:23 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:04:23 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:04:23 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:04:23 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:04:23 --> Controller Class Initialized
+INFO - 2018-07-11 23:04:23 --> Model Class Initialized
+INFO - 2018-07-11 23:04:23 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:04:23 --> Model Class Initialized
+INFO - 2018-07-11 23:04:23 --> Model Class Initialized
+INFO - 2018-07-11 23:04:23 --> Email Class Initialized
+INFO - 2018-07-11 23:04:31 --> Language file loaded: language/english/email_lang.php
+ERROR - 2018-07-11 23:04:31 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:32 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:32 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:32 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:32 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:33 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:33 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:33 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:33 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:34 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:34 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:34 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:34 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:35 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:35 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:35 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:35 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:36 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:36 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:36 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:36 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:04:37 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+INFO - 2018-07-11 23:06:16 --> Config Class Initialized
+INFO - 2018-07-11 23:06:16 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:06:16 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:06:16 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:06:16 --> URI Class Initialized
+INFO - 2018-07-11 23:06:16 --> Router Class Initialized
+INFO - 2018-07-11 23:06:16 --> Output Class Initialized
+INFO - 2018-07-11 23:06:16 --> Security Class Initialized
+DEBUG - 2018-07-11 23:06:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:06:16 --> Input Class Initialized
+INFO - 2018-07-11 23:06:16 --> Language Class Initialized
+INFO - 2018-07-11 23:06:16 --> Loader Class Initialized
+INFO - 2018-07-11 23:06:16 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:06:16 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:06:16 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:06:16 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:06:16 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:06:16 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:06:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:06:16 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:06:16 --> Controller Class Initialized
+INFO - 2018-07-11 23:06:16 --> Model Class Initialized
+INFO - 2018-07-11 23:06:16 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:06:19 --> Model Class Initialized
+INFO - 2018-07-11 23:06:19 --> Model Class Initialized
+INFO - 2018-07-11 23:06:19 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:06:19 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:06:19 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:06:19 --> Final output sent to browser
+DEBUG - 2018-07-11 23:06:19 --> Total execution time: 3.1922
+INFO - 2018-07-11 23:06:27 --> Config Class Initialized
+INFO - 2018-07-11 23:06:27 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:06:27 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:06:27 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:06:27 --> URI Class Initialized
+INFO - 2018-07-11 23:06:27 --> Router Class Initialized
+INFO - 2018-07-11 23:06:27 --> Output Class Initialized
+INFO - 2018-07-11 23:06:27 --> Security Class Initialized
+DEBUG - 2018-07-11 23:06:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:06:27 --> Input Class Initialized
+INFO - 2018-07-11 23:06:27 --> Language Class Initialized
+INFO - 2018-07-11 23:06:27 --> Loader Class Initialized
+INFO - 2018-07-11 23:06:27 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:06:27 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:06:27 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:06:27 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:06:27 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:06:27 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:06:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:06:27 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:06:27 --> Controller Class Initialized
+INFO - 2018-07-11 23:06:27 --> Model Class Initialized
+INFO - 2018-07-11 23:06:27 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:06:27 --> Model Class Initialized
+INFO - 2018-07-11 23:06:27 --> Model Class Initialized
+INFO - 2018-07-11 23:06:27 --> Email Class Initialized
+INFO - 2018-07-11 23:06:35 --> Language file loaded: language/english/email_lang.php
+ERROR - 2018-07-11 23:06:35 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:35 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:35 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:36 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:36 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:36 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:37 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:37 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:37 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:37 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:38 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:38 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:38 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:38 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:39 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:39 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:39 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:39 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:40 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:40 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:40 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:40 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:06:41 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+INFO - 2018-07-11 23:06:41 --> Config Class Initialized
+INFO - 2018-07-11 23:06:41 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:06:41 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:06:41 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:06:41 --> URI Class Initialized
+INFO - 2018-07-11 23:06:41 --> Router Class Initialized
+INFO - 2018-07-11 23:06:41 --> Output Class Initialized
+INFO - 2018-07-11 23:06:41 --> Security Class Initialized
+DEBUG - 2018-07-11 23:06:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:06:41 --> Input Class Initialized
+INFO - 2018-07-11 23:06:41 --> Language Class Initialized
+INFO - 2018-07-11 23:06:41 --> Loader Class Initialized
+INFO - 2018-07-11 23:06:41 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:06:41 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:06:41 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:06:41 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:06:41 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:06:41 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:06:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:06:41 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:06:41 --> Controller Class Initialized
+INFO - 2018-07-11 23:06:41 --> Model Class Initialized
+INFO - 2018-07-11 23:06:41 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:06:41 --> Model Class Initialized
+INFO - 2018-07-11 23:06:41 --> Model Class Initialized
+INFO - 2018-07-11 23:06:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:06:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/success.php
+INFO - 2018-07-11 23:06:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:06:41 --> Final output sent to browser
+DEBUG - 2018-07-11 23:06:41 --> Total execution time: 0.2710
+INFO - 2018-07-11 23:12:02 --> Config Class Initialized
+INFO - 2018-07-11 23:12:02 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:12:02 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:12:02 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:12:02 --> URI Class Initialized
+INFO - 2018-07-11 23:12:02 --> Router Class Initialized
+INFO - 2018-07-11 23:12:02 --> Output Class Initialized
+INFO - 2018-07-11 23:12:02 --> Security Class Initialized
+DEBUG - 2018-07-11 23:12:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:12:02 --> Input Class Initialized
+INFO - 2018-07-11 23:12:02 --> Language Class Initialized
+INFO - 2018-07-11 23:12:02 --> Loader Class Initialized
+INFO - 2018-07-11 23:12:02 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:12:02 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:12:02 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:12:02 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:12:02 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:12:02 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:12:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:12:02 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:12:02 --> Controller Class Initialized
+INFO - 2018-07-11 23:12:02 --> Model Class Initialized
+INFO - 2018-07-11 23:12:02 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:12:05 --> Model Class Initialized
+INFO - 2018-07-11 23:12:05 --> Model Class Initialized
+INFO - 2018-07-11 23:12:05 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:12:05 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:12:05 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:12:05 --> Final output sent to browser
+DEBUG - 2018-07-11 23:12:05 --> Total execution time: 3.1822
+INFO - 2018-07-11 23:12:45 --> Config Class Initialized
+INFO - 2018-07-11 23:12:45 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:12:45 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:12:45 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:12:45 --> URI Class Initialized
+INFO - 2018-07-11 23:12:45 --> Router Class Initialized
+INFO - 2018-07-11 23:12:45 --> Output Class Initialized
+INFO - 2018-07-11 23:12:45 --> Security Class Initialized
+DEBUG - 2018-07-11 23:12:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:12:45 --> Input Class Initialized
+INFO - 2018-07-11 23:12:45 --> Language Class Initialized
+INFO - 2018-07-11 23:12:45 --> Loader Class Initialized
+INFO - 2018-07-11 23:12:45 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:12:45 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:12:45 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:12:45 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:12:45 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:12:45 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:12:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:12:45 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:12:45 --> Controller Class Initialized
+INFO - 2018-07-11 23:12:45 --> Model Class Initialized
+INFO - 2018-07-11 23:12:45 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:12:45 --> Model Class Initialized
+INFO - 2018-07-11 23:12:45 --> Model Class Initialized
+INFO - 2018-07-11 23:12:45 --> Email Class Initialized
+INFO - 2018-07-11 23:12:53 --> Language file loaded: language/english/email_lang.php
+ERROR - 2018-07-11 23:12:53 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:53 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:53 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:54 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:54 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:54 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:54 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:55 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:55 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:55 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:55 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:56 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:56 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:56 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:57 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:57 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:57 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:57 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:58 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:58 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:58 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:58 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+ERROR - 2018-07-11 23:12:59 --> Severity: Notice --> fwrite(): send of 6 bytes failed with errno=10054 Se ha forzado la interrupci�n de una conexi�n existente por el host remoto.
+ C:\xampp\htdocs\SIG-ATS\system\libraries\Email.php 2242
+INFO - 2018-07-11 23:13:38 --> Config Class Initialized
+INFO - 2018-07-11 23:13:38 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:13:38 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:13:38 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:13:38 --> URI Class Initialized
+INFO - 2018-07-11 23:13:38 --> Router Class Initialized
+INFO - 2018-07-11 23:13:38 --> Output Class Initialized
+INFO - 2018-07-11 23:13:38 --> Security Class Initialized
+DEBUG - 2018-07-11 23:13:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:13:38 --> Input Class Initialized
+INFO - 2018-07-11 23:13:38 --> Language Class Initialized
+INFO - 2018-07-11 23:13:38 --> Loader Class Initialized
+INFO - 2018-07-11 23:13:38 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:13:38 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:13:38 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:13:38 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:13:38 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:13:38 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:13:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:13:38 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:13:38 --> Controller Class Initialized
+INFO - 2018-07-11 23:13:38 --> Model Class Initialized
+INFO - 2018-07-11 23:13:38 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:13:38 --> Config Class Initialized
+INFO - 2018-07-11 23:13:38 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:13:38 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:13:38 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:13:38 --> URI Class Initialized
+INFO - 2018-07-11 23:13:38 --> Router Class Initialized
+INFO - 2018-07-11 23:13:38 --> Output Class Initialized
+INFO - 2018-07-11 23:13:38 --> Security Class Initialized
+DEBUG - 2018-07-11 23:13:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:13:38 --> Input Class Initialized
+INFO - 2018-07-11 23:13:38 --> Language Class Initialized
+INFO - 2018-07-11 23:13:38 --> Loader Class Initialized
+INFO - 2018-07-11 23:13:38 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:13:38 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:13:38 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:13:38 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:13:38 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:13:38 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:13:38 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:13:41 --> Model Class Initialized
+INFO - 2018-07-11 23:13:41 --> Model Class Initialized
+INFO - 2018-07-11 23:13:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:13:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:13:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:13:41 --> Final output sent to browser
+DEBUG - 2018-07-11 23:13:41 --> Total execution time: 3.2222
+INFO - 2018-07-11 23:13:41 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:13:41 --> Controller Class Initialized
+INFO - 2018-07-11 23:13:41 --> Model Class Initialized
+INFO - 2018-07-11 23:13:41 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:13:41 --> Model Class Initialized
+INFO - 2018-07-11 23:13:41 --> Model Class Initialized
+INFO - 2018-07-11 23:13:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:13:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:13:41 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:13:41 --> Final output sent to browser
+DEBUG - 2018-07-11 23:13:41 --> Total execution time: 3.1022
+INFO - 2018-07-11 23:13:55 --> Config Class Initialized
+INFO - 2018-07-11 23:13:55 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:13:55 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:13:55 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:13:55 --> URI Class Initialized
+INFO - 2018-07-11 23:13:55 --> Router Class Initialized
+INFO - 2018-07-11 23:13:55 --> Output Class Initialized
+INFO - 2018-07-11 23:13:55 --> Security Class Initialized
+DEBUG - 2018-07-11 23:13:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:13:55 --> Input Class Initialized
+INFO - 2018-07-11 23:13:55 --> Language Class Initialized
+INFO - 2018-07-11 23:13:55 --> Loader Class Initialized
+INFO - 2018-07-11 23:13:55 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:13:55 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:13:55 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:13:55 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:13:55 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:13:55 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:13:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:13:55 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:13:55 --> Controller Class Initialized
+INFO - 2018-07-11 23:13:55 --> Model Class Initialized
+INFO - 2018-07-11 23:13:55 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:13:55 --> Model Class Initialized
+INFO - 2018-07-11 23:13:55 --> Model Class Initialized
+INFO - 2018-07-11 23:13:55 --> Email Class Initialized
+INFO - 2018-07-11 23:13:56 --> Language file loaded: language/english/email_lang.php
