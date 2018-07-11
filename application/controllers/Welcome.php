@@ -124,7 +124,7 @@ class Welcome extends CI_Controller
                 );
 
                 //$this->contacto->insert($data);
-                //$this->sendEmailUser($data);
+                $this->sendEmailUser($data);
                 $this->sendEmailClient($data);
                 redirect('welcome/contactoSuccess', 'refresh');
             }
@@ -148,9 +148,9 @@ class Welcome extends CI_Controller
         $this->load->library("email");
         $configGmail = array(
             'protocol' => 'smtp',
-            'smtp_host' => 'ssl://mail.ats.cl',
-            'smtp_port' => 465,
-            'smtp_user' => 'ngutierrez',
+            'smtp_host' => 'mail.ats.cl',
+            'smtp_port' => 26,
+            'smtp_user' => 'ngutierrez@ats.cl',
             'smtp_pass' => 'Nino.1234',
             'mailtype' => 'html',
             'charset' => 'utf-8',
@@ -159,7 +159,6 @@ class Welcome extends CI_Controller
         $this->email->initialize($configGmail);
         $this->email->from('contacto@ats.cl');
         $this->email->to($data['CORREO']);
-        //$this->email->to($data['CORREO']);
         $this->email->subject('Contacto desde ATS.cl');
         $this->email->message($this->contacto->bodyUser($data));
         $this->email->send();
@@ -179,14 +178,13 @@ class Welcome extends CI_Controller
             'newline' => "\r\n"
         );
         $this->load->library("email",$config);
-        //$this->email->initialize($config);
         $this->email->from('contacto@ats.cl');
-        $this->email->to('ngutierrez@ats.cl');
+        $this->email->to($data['CORREO']);
         $this->email->subject('Contacto desde ATS.cl');
         $this->email->message($this->contacto->bodyClient($data));
 
         $this->email->send();
-        die(var_dump($this->email));
+        //die(var_dump($this->email));
     }
     public function sendCotizacion()
     {
