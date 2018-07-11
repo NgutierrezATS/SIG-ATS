@@ -170,8 +170,8 @@ class Welcome extends CI_Controller
         
         $config = array(
             'protocol' => 'smtp',
-            'smtp_host' => 'smtp.ats.cl',
-            'smtp_port' => 465,
+            'smtp_host' => 'mail.ats.cl',
+            'smtp_port' => 26,
             'smtp_user' => 'ngutierrez@ats.cl',
             'smtp_pass' => 'Nino.1234',
             'mailtype' => 'html',
