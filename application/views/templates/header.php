@@ -31,7 +31,7 @@
 
 
     
-<header class="main-header">
+<header class="main-header mb-5">
   <nav class="navbar navbar-expand-lg navbar-inverse fixed-top">
     <a class="navbar-brand" href="<?php echo site_url(); ?>/welcome"><img width="50%" src="<?php echo base_url()."assets/"; ?>slider/img/logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -76,6 +76,7 @@
   </nav>
   
 </header>
+<br>
     <!--<div class="container-fluid">
         <nav class="navbar navbar-inverse fixed-top">
         <div class="container-fluid">
