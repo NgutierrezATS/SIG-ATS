@@ -53,16 +53,20 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+$route['empresa']                   = 'welcome/empresa';
+
 $route['maquinas/tipo']      		= 'filtro/buscartipo';
 $route['maquinas/modelo']    		= 'filtro/buscarmodelo';
 $route['maquinas/(:num)']    		= 'filtro/index/$1';
 $route['filtrar']					= 'filtro/filtrar';
-$route['maquinaria']    			= 'welcome/maquinaria';
-$route['contacto']  				= 'welcome/Contacto';
-$route['contacto/success']          = 'welcome/contactoSuccess';
-$route['empresa']                   = 'welcome/empresa';
-$route['maquinas']                  = 'welcome/ejemplo';
-$route['cotizar']            		= 'welcome/cotizar';
-$route['cotizar/send']       		= 'welcome/sendcotizacion';
-$route['contacto/send']       		= 'welcome/sendContacto';
+$route['maquinaria']    			= 'maquina/maquinaria';
+$route['maquinas']                  = 'maquina/ejemplo';
+
+$route['contacto']  				= 'contacto/Contacto';
+$route['contacto/success']          = 'contacto/contactoSuccess';
+$route['contacto/send']       		= 'contacto/sendContacto';
+
+$route['cotizar']            		= 'cotizacion/cotizar';
+$route['cotizar/send']       		= 'cotizacion/sendcotizacion';
+
 

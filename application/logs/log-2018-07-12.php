@@ -5249,3 +5249,77 @@ DEBUG - 2018-07-12 17:58:51 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2018-07-12 17:59:03 --> UTF-8 Support Enabled
 DEBUG - 2018-07-12 17:59:03 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2018-07-12 17:59:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:11:11 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:11:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:11:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2018-07-12 21:11:14 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) C:\xampp\htdocs\SIG-ATS\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-07-12 21:11:14 --> Unable to connect to the database
+DEBUG - 2018-07-12 21:12:32 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:12:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:12:32 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+ERROR - 2018-07-12 21:12:35 --> Severity: Warning --> mysqli::real_connect(): (HY000/1049): Unknown database 'web_ats' C:\xampp\htdocs\SIG-ATS\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2018-07-12 21:12:35 --> Unable to connect to the database
+DEBUG - 2018-07-12 21:13:27 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:13:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:13:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:13:27 --> Total execution time: 0.0900
+DEBUG - 2018-07-12 21:13:44 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:13:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:13:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:13:44 --> Total execution time: 0.0910
+DEBUG - 2018-07-12 21:13:48 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:13:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:13:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:13:48 --> Total execution time: 0.1630
+DEBUG - 2018-07-12 21:14:07 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:14:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:14:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:14:07 --> Total execution time: 0.1610
+DEBUG - 2018-07-12 21:14:16 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:14:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:14:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:14:16 --> Total execution time: 0.1000
+DEBUG - 2018-07-12 21:15:15 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:15:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:15:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:15:18 --> Total execution time: 3.1102
+DEBUG - 2018-07-12 21:16:26 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:16:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:16:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:16:29 --> Total execution time: 3.1102
+DEBUG - 2018-07-12 21:16:44 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:16:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:16:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:16:44 --> Total execution time: 0.0890
+DEBUG - 2018-07-12 21:16:48 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:16:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:16:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:16:49 --> Total execution time: 0.0900
+DEBUG - 2018-07-12 21:16:55 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:16:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:16:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:16:55 --> Total execution time: 0.0920
+DEBUG - 2018-07-12 21:16:58 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:16:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:16:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:16:58 --> Total execution time: 0.1000
+DEBUG - 2018-07-12 21:17:03 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:17:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:17:03 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:17:03 --> Total execution time: 0.1180
+DEBUG - 2018-07-12 21:17:06 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:17:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:17:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:17:06 --> Total execution time: 0.1030
+DEBUG - 2018-07-12 21:17:07 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:17:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:17:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:17:08 --> Total execution time: 0.1090
+DEBUG - 2018-07-12 21:17:10 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:17:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:17:11 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:17:11 --> Total execution time: 0.1400
+DEBUG - 2018-07-12 21:17:13 --> UTF-8 Support Enabled
+DEBUG - 2018-07-12 21:17:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-12 21:17:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-12 21:17:13 --> Total execution time: 0.0760
