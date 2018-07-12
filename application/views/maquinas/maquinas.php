@@ -42,7 +42,7 @@
 	                        <select class="form-control" id="energia" name="energia">
 	                        	<option selected disabled>Filtrar por tipo de energía</option>
 	                            <option value="electrico">Eléctricos</option>
-	                            <option value="combustion">A Combustión</option>
+	                            <option value="diesel">A Combustión</option>
 	                        </select>
 						</div>
 	                </li>

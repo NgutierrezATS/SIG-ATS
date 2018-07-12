@@ -89,9 +89,33 @@ class Maquina_model extends CI_Model {
         return $query->row();
     }
 
-    public function filtro()
+    public function getMaquinas($data)
     {
-        
+        $this->db->select('*');
+        $this->db->from($this->table);
+        $this->db->join($this->table_foto, $this->join_foto);
+        $this->db->join($this->table_tipo, $this->join_tipo);
+        $this->db->where($this->id_tipo, $data['ID_TIPO']);
+        if ($data['ID_TIPO'] == 1 || $data['ID_TIPO'] == 2 || $data['ID_TIPO'] == 3) {
+            $this->db->where('ALTURA_TRABAJO >= '.$data['ALTURAMIN'].' AND ALTURA_TRABAJO <= '.$data['ALTURAMAX'].'');
+        }else if($data['ID_TIPO'] == 4){
+            $this->db->where('ALTURA_LEVANTAMIENTO >= '.$data['ALTURAMIN'].' AND ALTURA_LEVANTAMIENTO <= '.$data['ALTURAMAX'].'');
+        }else if($data['ID_TIPO'] == 5){
+            $this->db->where('ALTURA >= '.$data['ALTURAMIN'].' AND ALTURA <= '.$data['ALTURAMAX'].'');
+        }
+
+        if ($data['MARCA'] != NULL && $data['ENERGIA'] != NULL) {
+            $this->db->where('MARCA', $data['MARCA']);
+            $this->db->where('ENERGIA', $data['ENERGIA']);   
+        }else if($data['ENERGIA'] != NULL){
+            $this->db->where('ENERGIA', $data['ENERGIA']);
+        }else if ($data['MARCA'] != NULL) {
+            $this->db->where('MARCA', $data['MARCA']);
+            
+        }
+            
+        $q = $this->db->get();
+            return $q->result();
     }
 
 }

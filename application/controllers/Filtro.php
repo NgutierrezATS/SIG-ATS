@@ -11,6 +11,7 @@ class Filtro extends CI_Controller {
 
 	public function index($tipo)
 	{
+		$this->session->set_userdata('tipo', $tipo);
 		$data['maquinas'] = $this->maquina->all($tipo);
         $this->load->view('templates/header');
         $this->load->view('maquinas/maquinas', $data);
@@ -65,13 +66,21 @@ class Filtro extends CI_Controller {
         $this->load->view('templates/footer');
     }
 
-    
-
-
 	public function filtrar()
     {
-        die(var_dump($this->input->post()));
+    	$min = explode('Metros', $this->input->post('alturamin'));
+        $max = explode('Metros', $this->input->post('alturamax'));
+   		$filtros = array('ALTURAMIN' => $min[0],
+   					     'ALTURAMAX' => $max[0],
+   					     'MARCA'     => $this->input->post('marca'),
+   					     'ENERGIA'   => $this->input->post('energia'),
+   					     'ID_TIPO'   => $this->session->userdata('tipo'));
+   		$maquinas = $this->maquina->getMaquinas($filtros);
+   		die(var_dump($maquinas));
+   		echo json_encode($maquinas);
+
     }
+
 
 }
 
