@@ -53,9 +53,10 @@ $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
-$route['maquinas/tipo']      		= 'welcome/buscartipo';
-$route['maquinas/modelo']    		= 'welcome/buscarmodelo';
-$route['maquinas/(:num)']    		= 'welcome/buscarmaquina/$1';
+$route['maquinas/tipo']      		= 'filtro/buscartipo';
+$route['maquinas/modelo']    		= 'filtro/buscarmodelo';
+$route['maquinas/(:num)']    		= 'filtro/index/$1';
+$route['filtrar']					= 'filtro/filtrar';
 $route['maquinaria']    			= 'welcome/maquinaria';
 $route['contacto']  				= 'welcome/Contacto';
 $route['contacto/success']          = 'welcome/contactoSuccess';

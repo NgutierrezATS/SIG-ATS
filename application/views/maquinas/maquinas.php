@@ -59,7 +59,7 @@
 					<?php if ($key->ID_TIPO == 1 || $key->ID_TIPO == 2 || $key->ID_TIPO == 3 ){ ?>
 						<form method="POST" accept-charset="utf-8" action="<?php echo site_url(); ?>/maquinas/modelo">
 							<input id="form" type="hidden" name="modelo" id="modelo" value="<?php echo $key->MODELO ?>|<?php echo $key->ID_TIPO ?>"/>
-							<div class="col-sm-4">
+							<div class="col-md-4">
 								<button type="submit" class="btn" style="background-color: transparent;">
 									<div class="thumbnail text-center">
 										<img height="25%" width="25%" src="<?php echo base_url()."imagenes/min/$key->FOTOMIN"; ?>" alt="">
@@ -193,11 +193,10 @@ jQuery(document).ready(function($) {
 		$('#filtroform').change();
 	})
 
-		// console.log('Result: ' + $(this).MyFunction());
 
 	$('#filtroform').on('change', function (argument) {
 		$.ajax({
-			url: '<?php echo site_url('welcome/filtrar') ?>',
+			url: '<?php echo site_url('filtrar') ?>',
 			type: 'POST',
 			dataType: 'JSON',
 			data: {alturamin  : $('#smin').text(),

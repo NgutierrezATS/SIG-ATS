@@ -25,53 +25,8 @@ class Welcome extends CI_Controller
         $this->load->view('templates/footer');
     }
 
-    public function buscartipo()
-    {
-        $data['tipos'] = $this->tipo->all();
-        $data['modelos'] = $this->maquina->getModelos();
-        if ($this->input->post()) {
-            $id = $this->input->post('id_tipo');
-            $this->session->set_userdata('id_tipo', $id);
-        } else {
-            $id = $this->session->userdata('id_tipo');
-        }
-        $data['tipo'] = (object)$this->tipo->getTipo($id);
-        $data['maquinas'] = $this->maquina->filtroTipo($id);
-        // die(var_dump($data));
-        $this->load->view('templates/header');
-        $this->load->view('filtro', $data);
-        $this->load->view('maquinas/tipomaquina', $data);
-        $this->load->view('templates/footer');
-    }
-
-    public function buscarmodelo()
-    {
-        $data['tipos'] = $this->tipo->all();
-        $data['modelos'] = $this->maquina->getModelos();
-        if ($this->input->post()) {
-            $result = $this->input->post('modelo');
-            $this->session->set_userdata('result', $result);
-            $result_explode = explode('|', $result);
-            $modelo = $result_explode[0];
-            $id_tipo = $result_explode[1];
-        } else {
-            $result = $this->session->userdata('result');
-            $result_explode = explode('|', $result);
-            $modelo = $result_explode[0];
-            $id_tipo = $result_explode[1];
-            // die(var_dump($result));
-        }
-
-        $data['maquina'] = $this->maquina->filtroModelo($modelo, $id_tipo);
-        $this->session->set_userdata('modelo', $data['maquina']->MODELO);
-        // die(var_dump($data));
-
-        $this->load->view('templates/header');
-        $this->load->view('filtro', $data);
-        $this->load->view('maquinas/modelomaquina', $data);
-        $this->load->view('templates/footer');
-
-    }
+    
+    
 
     public function maquinaria()
     {
@@ -240,17 +195,5 @@ class Welcome extends CI_Controller
         $this->load->view('cotizar',$data);
         
     }
-    public function filtrar()
-    {
-        die(var_dump($this->input->post()));
-    }
-
-    public function buscarmaquina($tipo)
-    {
-        $data['maquinas'] = $this->maquina->all($tipo);
-        $this->load->view('templates/header');
-        $this->load->view('maquinas/maquinas', $data);
-        $this->load->view('templates/footer');
-
-    }
+    
 }
