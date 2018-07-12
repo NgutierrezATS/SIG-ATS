@@ -76,7 +76,7 @@
   </nav>
   
 </header>
-<br>
+<!-- <br> -->
     <!--<div class="container-fluid">
         <nav class="navbar navbar-inverse fixed-top">
         <div class="container-fluid">

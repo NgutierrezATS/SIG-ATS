@@ -11,10 +11,13 @@ class Filtro extends CI_Controller {
 
 	public function index($tipo)
 	{
-		$this->session->set_userdata('tipo', $tipo);
-		$data['maquinas'] = $this->maquina->all($tipo);
+        $this->session->set_userdata('tipo', $tipo);
+       
+        $m = $this->maquina->all($tipo);
+
+        $this->session->set_userdata('maquinas',$m);
         $this->load->view('templates/header');
-        $this->load->view('maquinas/maquinas', $data);
+        $this->load->view('maquinas/maquinas');
         $this->load->view('templates/footer');
 	}
 
@@ -76,9 +79,28 @@ class Filtro extends CI_Controller {
    					     'ENERGIA'   => $this->input->post('energia'),
    					     'ID_TIPO'   => $this->session->userdata('tipo'));
    		$maquinas = $this->maquina->getMaquinas($filtros);
-   		die(var_dump($maquinas));
-   		echo json_encode($maquinas);
+        $this->session->unset_userdata('maquinas');
+        $this->session->set_userdata('maquinas', $maquinas);
+        if ($maquinas) {
+           $this->flashData($filtros); 
+        }
 
+        $html = $this->load->view('maquinas/maquinasv', $maquinas, TRUE);
+
+   		// die(var_dump($maquinas));
+        // redirect('maquinas/maquinas','refresh');
+        // redirect(site_url().'/filtro/filtrada');
+   		echo json_encode($html);
+
+    }
+
+    public function flashData($data)
+    {
+
+        $flash_msg = array('callout_class'  => 'alert alert-success alert-dismissible',
+                                            'callout_title'  => '<h4>Resultados encontrados para: </h4>',
+                                            'callout_text'   => '<p> Altura entre '. $data['ALTURAMIN'] .' metros y '. $data['ALTURAMAX'] .' Metros. </p>');
+                        $this->session->set_flashdata($flash_msg);
     }
 
 
