@@ -34,7 +34,8 @@ class Contacto_model extends CI_Model
 		<body style=" color:#666;background:#fff;font-size:15px;">
 		<!--style cont email-->
 		<h3>Contacto desde ATS.cl</h3>
-		Estimado ' . $data['NOMBRE'] . ',<br /><br />
+		Estimado(a) representante de ' . $data['EMPRESA'] . ',<br /><br />
+        Le informamos a traves de este correo que su mensaje ha sido recibido con exito. <br/> <br/>
 		Gracias por contactarse con nosotros. Le responderemos a la brevedad posible.<br /><br />
 		Saludos cordiales<br /><br />
 		www.ats.cl

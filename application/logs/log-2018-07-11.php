@@ -3095,6 +3095,7 @@ INFO - 2018-07-11 23:13:55 --> Model Class Initialized
 INFO - 2018-07-11 23:13:55 --> Model Class Initialized
 INFO - 2018-07-11 23:13:55 --> Email Class Initialized
 INFO - 2018-07-11 23:13:56 --> Language file loaded: language/english/email_lang.php
+<<<<<<< HEAD
 INFO - 2018-07-11 21:54:09 --> Config Class Initialized
 INFO - 2018-07-11 21:54:09 --> Hooks Class Initialized
 DEBUG - 2018-07-11 21:54:09 --> UTF-8 Support Enabled
@@ -5197,3 +5198,938 @@ INFO - 2018-07-11 23:17:18 --> File loaded: C:\wamp\www\SIG-ATS\application\view
 INFO - 2018-07-11 23:17:18 --> File loaded: C:\wamp\www\SIG-ATS\application\views\templates/footer.php
 INFO - 2018-07-11 23:17:18 --> Final output sent to browser
 DEBUG - 2018-07-11 23:17:18 --> Total execution time: 0.8565
+=======
+INFO - 2018-07-11 23:39:04 --> Config Class Initialized
+INFO - 2018-07-11 23:39:04 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:39:04 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:39:04 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:39:04 --> URI Class Initialized
+INFO - 2018-07-11 23:39:04 --> Router Class Initialized
+INFO - 2018-07-11 23:39:04 --> Output Class Initialized
+INFO - 2018-07-11 23:39:04 --> Security Class Initialized
+DEBUG - 2018-07-11 23:39:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:39:04 --> Input Class Initialized
+INFO - 2018-07-11 23:39:04 --> Language Class Initialized
+INFO - 2018-07-11 23:39:04 --> Loader Class Initialized
+INFO - 2018-07-11 23:39:04 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:39:04 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:39:04 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:39:04 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:39:04 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:39:04 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:39:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:39:04 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:39:04 --> Controller Class Initialized
+INFO - 2018-07-11 23:39:04 --> Model Class Initialized
+INFO - 2018-07-11 23:39:04 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:39:07 --> Model Class Initialized
+INFO - 2018-07-11 23:39:07 --> Model Class Initialized
+INFO - 2018-07-11 23:39:07 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:39:07 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:39:07 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:39:07 --> Final output sent to browser
+DEBUG - 2018-07-11 23:39:07 --> Total execution time: 3.2152
+INFO - 2018-07-11 23:39:40 --> Config Class Initialized
+INFO - 2018-07-11 23:39:40 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:39:40 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:39:40 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:39:40 --> URI Class Initialized
+INFO - 2018-07-11 23:39:41 --> Router Class Initialized
+INFO - 2018-07-11 23:39:41 --> Output Class Initialized
+INFO - 2018-07-11 23:39:41 --> Security Class Initialized
+DEBUG - 2018-07-11 23:39:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:39:41 --> Input Class Initialized
+INFO - 2018-07-11 23:39:41 --> Language Class Initialized
+INFO - 2018-07-11 23:39:41 --> Loader Class Initialized
+INFO - 2018-07-11 23:39:41 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:39:41 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:39:41 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:39:41 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:39:41 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:39:41 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:39:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:39:41 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:39:41 --> Controller Class Initialized
+INFO - 2018-07-11 23:39:41 --> Model Class Initialized
+INFO - 2018-07-11 23:39:41 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:39:41 --> Model Class Initialized
+INFO - 2018-07-11 23:39:41 --> Model Class Initialized
+INFO - 2018-07-11 23:39:41 --> Email Class Initialized
+INFO - 2018-07-11 23:39:43 --> Language file loaded: language/english/email_lang.php
+INFO - 2018-07-11 23:39:45 --> Config Class Initialized
+INFO - 2018-07-11 23:39:45 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:39:45 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:39:45 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:39:45 --> URI Class Initialized
+INFO - 2018-07-11 23:39:45 --> Router Class Initialized
+INFO - 2018-07-11 23:39:45 --> Output Class Initialized
+INFO - 2018-07-11 23:39:45 --> Security Class Initialized
+DEBUG - 2018-07-11 23:39:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:39:45 --> Input Class Initialized
+INFO - 2018-07-11 23:39:45 --> Language Class Initialized
+INFO - 2018-07-11 23:39:45 --> Loader Class Initialized
+INFO - 2018-07-11 23:39:45 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:39:45 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:39:45 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:39:45 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:39:45 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:39:45 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:39:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:39:45 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:39:45 --> Controller Class Initialized
+INFO - 2018-07-11 23:39:45 --> Model Class Initialized
+INFO - 2018-07-11 23:39:45 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:39:45 --> Model Class Initialized
+INFO - 2018-07-11 23:39:45 --> Model Class Initialized
+INFO - 2018-07-11 23:39:45 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:39:45 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/success.php
+INFO - 2018-07-11 23:39:45 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:39:45 --> Final output sent to browser
+DEBUG - 2018-07-11 23:39:45 --> Total execution time: 0.1630
+INFO - 2018-07-11 23:41:08 --> Config Class Initialized
+INFO - 2018-07-11 23:41:08 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:41:08 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:41:08 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:41:08 --> URI Class Initialized
+INFO - 2018-07-11 23:41:08 --> Router Class Initialized
+INFO - 2018-07-11 23:41:08 --> Output Class Initialized
+INFO - 2018-07-11 23:41:08 --> Security Class Initialized
+DEBUG - 2018-07-11 23:41:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:41:08 --> Input Class Initialized
+INFO - 2018-07-11 23:41:08 --> Language Class Initialized
+INFO - 2018-07-11 23:41:08 --> Loader Class Initialized
+INFO - 2018-07-11 23:41:08 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:41:08 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:41:08 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:41:08 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:41:08 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:41:08 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:41:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:41:08 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:41:08 --> Controller Class Initialized
+INFO - 2018-07-11 23:41:08 --> Model Class Initialized
+INFO - 2018-07-11 23:41:08 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:41:11 --> Model Class Initialized
+INFO - 2018-07-11 23:41:11 --> Model Class Initialized
+INFO - 2018-07-11 23:41:11 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:41:11 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:41:11 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:41:11 --> Final output sent to browser
+DEBUG - 2018-07-11 23:41:11 --> Total execution time: 3.1862
+INFO - 2018-07-11 23:41:37 --> Config Class Initialized
+INFO - 2018-07-11 23:41:37 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:41:37 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:41:37 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:41:37 --> URI Class Initialized
+INFO - 2018-07-11 23:41:37 --> Router Class Initialized
+INFO - 2018-07-11 23:41:37 --> Output Class Initialized
+INFO - 2018-07-11 23:41:37 --> Security Class Initialized
+DEBUG - 2018-07-11 23:41:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:41:37 --> Input Class Initialized
+INFO - 2018-07-11 23:41:37 --> Language Class Initialized
+INFO - 2018-07-11 23:41:37 --> Loader Class Initialized
+INFO - 2018-07-11 23:41:37 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:41:37 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:41:37 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:41:37 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:41:37 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:41:37 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:41:37 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:41:37 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:41:37 --> Controller Class Initialized
+INFO - 2018-07-11 23:41:37 --> Model Class Initialized
+INFO - 2018-07-11 23:41:37 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:41:37 --> Model Class Initialized
+INFO - 2018-07-11 23:41:37 --> Model Class Initialized
+INFO - 2018-07-11 23:41:37 --> Email Class Initialized
+INFO - 2018-07-11 23:41:38 --> Language file loaded: language/english/email_lang.php
+DEBUG - 2018-07-11 23:41:40 --> Email class already loaded. Second attempt ignored.
+INFO - 2018-07-11 23:41:42 --> Config Class Initialized
+INFO - 2018-07-11 23:41:42 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:41:42 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:41:42 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:41:42 --> URI Class Initialized
+INFO - 2018-07-11 23:41:42 --> Router Class Initialized
+INFO - 2018-07-11 23:41:42 --> Output Class Initialized
+INFO - 2018-07-11 23:41:42 --> Security Class Initialized
+DEBUG - 2018-07-11 23:41:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:41:42 --> Input Class Initialized
+INFO - 2018-07-11 23:41:42 --> Language Class Initialized
+INFO - 2018-07-11 23:41:42 --> Loader Class Initialized
+INFO - 2018-07-11 23:41:42 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:41:42 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:41:42 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:41:42 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:41:42 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:41:42 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:41:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:41:42 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:41:42 --> Controller Class Initialized
+INFO - 2018-07-11 23:41:42 --> Model Class Initialized
+INFO - 2018-07-11 23:41:42 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:41:42 --> Model Class Initialized
+INFO - 2018-07-11 23:41:42 --> Model Class Initialized
+INFO - 2018-07-11 23:41:42 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:41:42 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/success.php
+INFO - 2018-07-11 23:41:42 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:41:42 --> Final output sent to browser
+DEBUG - 2018-07-11 23:41:42 --> Total execution time: 0.1560
+INFO - 2018-07-11 23:43:09 --> Config Class Initialized
+INFO - 2018-07-11 23:43:09 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:43:09 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:43:09 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:43:09 --> URI Class Initialized
+INFO - 2018-07-11 23:43:09 --> Router Class Initialized
+INFO - 2018-07-11 23:43:09 --> Output Class Initialized
+INFO - 2018-07-11 23:43:09 --> Security Class Initialized
+DEBUG - 2018-07-11 23:43:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:43:09 --> Input Class Initialized
+INFO - 2018-07-11 23:43:09 --> Language Class Initialized
+INFO - 2018-07-11 23:43:09 --> Loader Class Initialized
+INFO - 2018-07-11 23:43:09 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:43:09 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:43:09 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:43:09 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:43:09 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:43:09 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:43:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:43:09 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:43:09 --> Controller Class Initialized
+INFO - 2018-07-11 23:43:09 --> Model Class Initialized
+INFO - 2018-07-11 23:43:09 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:43:12 --> Model Class Initialized
+INFO - 2018-07-11 23:43:12 --> Model Class Initialized
+INFO - 2018-07-11 23:43:12 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:43:12 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:43:12 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:43:12 --> Final output sent to browser
+DEBUG - 2018-07-11 23:43:12 --> Total execution time: 3.2552
+INFO - 2018-07-11 23:43:17 --> Config Class Initialized
+INFO - 2018-07-11 23:43:17 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:43:17 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:43:17 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:43:17 --> URI Class Initialized
+INFO - 2018-07-11 23:43:17 --> Router Class Initialized
+INFO - 2018-07-11 23:43:17 --> Output Class Initialized
+INFO - 2018-07-11 23:43:17 --> Security Class Initialized
+DEBUG - 2018-07-11 23:43:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:43:17 --> Input Class Initialized
+INFO - 2018-07-11 23:43:17 --> Language Class Initialized
+INFO - 2018-07-11 23:43:17 --> Loader Class Initialized
+INFO - 2018-07-11 23:43:17 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:43:17 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:43:17 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:43:17 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:43:17 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:43:17 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:43:17 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:43:17 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:43:17 --> Controller Class Initialized
+INFO - 2018-07-11 23:43:17 --> Model Class Initialized
+INFO - 2018-07-11 23:43:17 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:43:17 --> Model Class Initialized
+INFO - 2018-07-11 23:43:17 --> Model Class Initialized
+INFO - 2018-07-11 23:43:17 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:43:17 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:43:17 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:43:17 --> Final output sent to browser
+DEBUG - 2018-07-11 23:43:17 --> Total execution time: 0.1450
+INFO - 2018-07-11 23:43:59 --> Config Class Initialized
+INFO - 2018-07-11 23:43:59 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:43:59 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:43:59 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:43:59 --> URI Class Initialized
+INFO - 2018-07-11 23:43:59 --> Router Class Initialized
+INFO - 2018-07-11 23:43:59 --> Output Class Initialized
+INFO - 2018-07-11 23:43:59 --> Security Class Initialized
+DEBUG - 2018-07-11 23:43:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:43:59 --> Input Class Initialized
+INFO - 2018-07-11 23:43:59 --> Language Class Initialized
+INFO - 2018-07-11 23:43:59 --> Loader Class Initialized
+INFO - 2018-07-11 23:43:59 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:43:59 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:43:59 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:43:59 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:43:59 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:43:59 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:43:59 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:43:59 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:43:59 --> Controller Class Initialized
+INFO - 2018-07-11 23:43:59 --> Model Class Initialized
+INFO - 2018-07-11 23:43:59 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:43:59 --> Model Class Initialized
+INFO - 2018-07-11 23:43:59 --> Model Class Initialized
+INFO - 2018-07-11 23:43:59 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:43:59 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:43:59 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:43:59 --> Final output sent to browser
+DEBUG - 2018-07-11 23:43:59 --> Total execution time: 0.1660
+INFO - 2018-07-11 23:48:33 --> Config Class Initialized
+INFO - 2018-07-11 23:48:33 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:48:33 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:48:33 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:48:33 --> URI Class Initialized
+INFO - 2018-07-11 23:48:33 --> Router Class Initialized
+INFO - 2018-07-11 23:48:33 --> Output Class Initialized
+INFO - 2018-07-11 23:48:33 --> Security Class Initialized
+DEBUG - 2018-07-11 23:48:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:48:33 --> Input Class Initialized
+INFO - 2018-07-11 23:48:33 --> Language Class Initialized
+INFO - 2018-07-11 23:48:33 --> Loader Class Initialized
+INFO - 2018-07-11 23:48:33 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:48:33 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:48:33 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:48:33 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:48:33 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:48:33 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:48:33 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:48:33 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:48:33 --> Controller Class Initialized
+INFO - 2018-07-11 23:48:33 --> Model Class Initialized
+INFO - 2018-07-11 23:48:33 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:48:36 --> Model Class Initialized
+INFO - 2018-07-11 23:48:36 --> Model Class Initialized
+INFO - 2018-07-11 23:48:36 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:48:36 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:48:36 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:48:36 --> Final output sent to browser
+DEBUG - 2018-07-11 23:48:36 --> Total execution time: 3.2002
+INFO - 2018-07-11 23:49:03 --> Config Class Initialized
+INFO - 2018-07-11 23:49:03 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:49:03 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:49:03 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:49:03 --> URI Class Initialized
+INFO - 2018-07-11 23:49:03 --> Router Class Initialized
+INFO - 2018-07-11 23:49:03 --> Output Class Initialized
+INFO - 2018-07-11 23:49:03 --> Security Class Initialized
+DEBUG - 2018-07-11 23:49:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:49:03 --> Input Class Initialized
+INFO - 2018-07-11 23:49:03 --> Language Class Initialized
+INFO - 2018-07-11 23:49:03 --> Loader Class Initialized
+INFO - 2018-07-11 23:49:04 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:49:04 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:49:04 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:49:04 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:49:04 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:49:04 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:49:04 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:49:04 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:49:04 --> Controller Class Initialized
+INFO - 2018-07-11 23:49:04 --> Model Class Initialized
+INFO - 2018-07-11 23:49:04 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:49:07 --> Model Class Initialized
+INFO - 2018-07-11 23:49:07 --> Model Class Initialized
+INFO - 2018-07-11 23:49:07 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:49:07 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:49:07 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:49:07 --> Final output sent to browser
+DEBUG - 2018-07-11 23:49:07 --> Total execution time: 3.2122
+INFO - 2018-07-11 23:49:35 --> Config Class Initialized
+INFO - 2018-07-11 23:49:35 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:49:35 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:49:35 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:49:35 --> URI Class Initialized
+INFO - 2018-07-11 23:49:35 --> Router Class Initialized
+INFO - 2018-07-11 23:49:35 --> Output Class Initialized
+INFO - 2018-07-11 23:49:35 --> Security Class Initialized
+DEBUG - 2018-07-11 23:49:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:49:35 --> Input Class Initialized
+INFO - 2018-07-11 23:49:35 --> Language Class Initialized
+INFO - 2018-07-11 23:49:35 --> Loader Class Initialized
+INFO - 2018-07-11 23:49:35 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:49:35 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:49:35 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:49:35 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:49:35 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:49:35 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:49:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:49:35 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:49:35 --> Controller Class Initialized
+INFO - 2018-07-11 23:49:35 --> Model Class Initialized
+INFO - 2018-07-11 23:49:35 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:49:35 --> Model Class Initialized
+INFO - 2018-07-11 23:49:35 --> Model Class Initialized
+INFO - 2018-07-11 23:49:35 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:49:35 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:49:35 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:49:35 --> Final output sent to browser
+DEBUG - 2018-07-11 23:49:35 --> Total execution time: 0.1440
+INFO - 2018-07-11 23:50:01 --> Config Class Initialized
+INFO - 2018-07-11 23:50:01 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:50:01 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:50:01 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:50:01 --> URI Class Initialized
+INFO - 2018-07-11 23:50:01 --> Router Class Initialized
+INFO - 2018-07-11 23:50:01 --> Output Class Initialized
+INFO - 2018-07-11 23:50:01 --> Security Class Initialized
+DEBUG - 2018-07-11 23:50:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:50:01 --> Input Class Initialized
+INFO - 2018-07-11 23:50:01 --> Language Class Initialized
+INFO - 2018-07-11 23:50:01 --> Loader Class Initialized
+INFO - 2018-07-11 23:50:01 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:50:01 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:50:01 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:50:01 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:50:01 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:50:01 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:50:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:50:01 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:50:01 --> Controller Class Initialized
+INFO - 2018-07-11 23:50:01 --> Model Class Initialized
+INFO - 2018-07-11 23:50:01 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:50:01 --> Model Class Initialized
+INFO - 2018-07-11 23:50:01 --> Model Class Initialized
+INFO - 2018-07-11 23:50:01 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:50:01 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:50:01 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:50:01 --> Final output sent to browser
+DEBUG - 2018-07-11 23:50:01 --> Total execution time: 0.1680
+INFO - 2018-07-11 23:50:35 --> Config Class Initialized
+INFO - 2018-07-11 23:50:35 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:50:35 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:50:35 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:50:35 --> URI Class Initialized
+INFO - 2018-07-11 23:50:35 --> Router Class Initialized
+INFO - 2018-07-11 23:50:35 --> Output Class Initialized
+INFO - 2018-07-11 23:50:35 --> Security Class Initialized
+DEBUG - 2018-07-11 23:50:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:50:35 --> Input Class Initialized
+INFO - 2018-07-11 23:50:35 --> Language Class Initialized
+INFO - 2018-07-11 23:50:35 --> Loader Class Initialized
+INFO - 2018-07-11 23:50:35 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:50:35 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:50:35 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:50:35 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:50:35 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:50:35 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:50:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:50:35 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:50:35 --> Controller Class Initialized
+INFO - 2018-07-11 23:50:35 --> Model Class Initialized
+INFO - 2018-07-11 23:50:35 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:50:35 --> Model Class Initialized
+INFO - 2018-07-11 23:50:35 --> Model Class Initialized
+INFO - 2018-07-11 23:50:35 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:50:35 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:50:35 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:50:35 --> Final output sent to browser
+DEBUG - 2018-07-11 23:50:35 --> Total execution time: 0.1730
+INFO - 2018-07-11 23:51:22 --> Config Class Initialized
+INFO - 2018-07-11 23:51:22 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:51:22 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:51:22 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:51:22 --> URI Class Initialized
+INFO - 2018-07-11 23:51:22 --> Router Class Initialized
+INFO - 2018-07-11 23:51:22 --> Output Class Initialized
+INFO - 2018-07-11 23:51:22 --> Security Class Initialized
+DEBUG - 2018-07-11 23:51:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:51:22 --> Input Class Initialized
+INFO - 2018-07-11 23:51:22 --> Language Class Initialized
+INFO - 2018-07-11 23:51:22 --> Loader Class Initialized
+INFO - 2018-07-11 23:51:22 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:51:22 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:51:22 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:51:22 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:51:22 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:51:22 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:51:22 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:51:22 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:51:22 --> Controller Class Initialized
+INFO - 2018-07-11 23:51:22 --> Model Class Initialized
+INFO - 2018-07-11 23:51:22 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:51:25 --> Model Class Initialized
+INFO - 2018-07-11 23:51:25 --> Model Class Initialized
+INFO - 2018-07-11 23:51:25 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:51:25 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:51:25 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:51:25 --> Final output sent to browser
+DEBUG - 2018-07-11 23:51:25 --> Total execution time: 3.2092
+INFO - 2018-07-11 23:51:40 --> Config Class Initialized
+INFO - 2018-07-11 23:51:40 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:51:40 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:51:40 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:51:40 --> URI Class Initialized
+INFO - 2018-07-11 23:51:40 --> Router Class Initialized
+INFO - 2018-07-11 23:51:40 --> Output Class Initialized
+INFO - 2018-07-11 23:51:40 --> Security Class Initialized
+DEBUG - 2018-07-11 23:51:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:51:40 --> Input Class Initialized
+INFO - 2018-07-11 23:51:40 --> Language Class Initialized
+INFO - 2018-07-11 23:51:40 --> Loader Class Initialized
+INFO - 2018-07-11 23:51:40 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:51:40 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:51:40 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:51:40 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:51:40 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:51:40 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:51:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:51:40 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:51:40 --> Controller Class Initialized
+INFO - 2018-07-11 23:51:40 --> Model Class Initialized
+INFO - 2018-07-11 23:51:40 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:51:40 --> Model Class Initialized
+INFO - 2018-07-11 23:51:40 --> Model Class Initialized
+INFO - 2018-07-11 23:51:40 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:51:40 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:51:40 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:51:40 --> Final output sent to browser
+DEBUG - 2018-07-11 23:51:40 --> Total execution time: 0.1540
+INFO - 2018-07-11 23:52:43 --> Config Class Initialized
+INFO - 2018-07-11 23:52:43 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:52:43 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:52:43 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:52:43 --> URI Class Initialized
+INFO - 2018-07-11 23:52:43 --> Router Class Initialized
+INFO - 2018-07-11 23:52:43 --> Output Class Initialized
+INFO - 2018-07-11 23:52:43 --> Security Class Initialized
+DEBUG - 2018-07-11 23:52:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:52:43 --> Input Class Initialized
+INFO - 2018-07-11 23:52:43 --> Language Class Initialized
+INFO - 2018-07-11 23:52:43 --> Loader Class Initialized
+INFO - 2018-07-11 23:52:43 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:52:43 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:52:43 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:52:43 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:52:43 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:52:43 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:52:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:52:43 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:52:43 --> Controller Class Initialized
+INFO - 2018-07-11 23:52:43 --> Model Class Initialized
+INFO - 2018-07-11 23:52:43 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:52:43 --> Model Class Initialized
+INFO - 2018-07-11 23:52:43 --> Model Class Initialized
+INFO - 2018-07-11 23:52:43 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:52:43 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:52:43 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:52:43 --> Final output sent to browser
+DEBUG - 2018-07-11 23:52:43 --> Total execution time: 0.1530
+INFO - 2018-07-11 23:53:01 --> Config Class Initialized
+INFO - 2018-07-11 23:53:01 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:53:01 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:53:01 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:53:01 --> URI Class Initialized
+INFO - 2018-07-11 23:53:01 --> Router Class Initialized
+INFO - 2018-07-11 23:53:01 --> Output Class Initialized
+INFO - 2018-07-11 23:53:01 --> Security Class Initialized
+DEBUG - 2018-07-11 23:53:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:53:01 --> Input Class Initialized
+INFO - 2018-07-11 23:53:01 --> Language Class Initialized
+INFO - 2018-07-11 23:53:01 --> Loader Class Initialized
+INFO - 2018-07-11 23:53:01 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:53:01 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:53:01 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:53:01 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:53:01 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:53:01 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:53:01 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:53:01 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:53:01 --> Controller Class Initialized
+INFO - 2018-07-11 23:53:01 --> Model Class Initialized
+INFO - 2018-07-11 23:53:01 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:53:04 --> Model Class Initialized
+INFO - 2018-07-11 23:53:04 --> Model Class Initialized
+INFO - 2018-07-11 23:53:04 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:53:04 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:53:04 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:53:04 --> Final output sent to browser
+DEBUG - 2018-07-11 23:53:04 --> Total execution time: 3.1682
+INFO - 2018-07-11 23:53:30 --> Config Class Initialized
+INFO - 2018-07-11 23:53:30 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:53:30 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:53:30 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:53:30 --> URI Class Initialized
+INFO - 2018-07-11 23:53:30 --> Router Class Initialized
+INFO - 2018-07-11 23:53:30 --> Output Class Initialized
+INFO - 2018-07-11 23:53:30 --> Security Class Initialized
+DEBUG - 2018-07-11 23:53:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:53:30 --> Input Class Initialized
+INFO - 2018-07-11 23:53:30 --> Language Class Initialized
+INFO - 2018-07-11 23:53:30 --> Loader Class Initialized
+INFO - 2018-07-11 23:53:30 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:53:30 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:53:30 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:53:30 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:53:30 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:53:30 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:53:30 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:53:30 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:53:30 --> Controller Class Initialized
+INFO - 2018-07-11 23:53:30 --> Model Class Initialized
+INFO - 2018-07-11 23:53:30 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:53:30 --> Model Class Initialized
+INFO - 2018-07-11 23:53:30 --> Model Class Initialized
+INFO - 2018-07-11 23:53:30 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:53:30 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:53:30 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:53:30 --> Final output sent to browser
+DEBUG - 2018-07-11 23:53:30 --> Total execution time: 0.1930
+INFO - 2018-07-11 23:53:40 --> Config Class Initialized
+INFO - 2018-07-11 23:53:40 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:53:40 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:53:40 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:53:40 --> URI Class Initialized
+INFO - 2018-07-11 23:53:40 --> Router Class Initialized
+INFO - 2018-07-11 23:53:40 --> Output Class Initialized
+INFO - 2018-07-11 23:53:40 --> Security Class Initialized
+DEBUG - 2018-07-11 23:53:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:53:40 --> Input Class Initialized
+INFO - 2018-07-11 23:53:40 --> Language Class Initialized
+INFO - 2018-07-11 23:53:40 --> Loader Class Initialized
+INFO - 2018-07-11 23:53:40 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:53:40 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:53:40 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:53:40 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:53:40 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:53:40 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:53:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:53:40 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:53:40 --> Controller Class Initialized
+INFO - 2018-07-11 23:53:40 --> Model Class Initialized
+INFO - 2018-07-11 23:53:40 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:53:40 --> Model Class Initialized
+INFO - 2018-07-11 23:53:40 --> Model Class Initialized
+INFO - 2018-07-11 23:53:40 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:53:40 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:53:40 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:53:40 --> Final output sent to browser
+DEBUG - 2018-07-11 23:53:40 --> Total execution time: 0.2400
+INFO - 2018-07-11 23:53:50 --> Config Class Initialized
+INFO - 2018-07-11 23:53:50 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:53:50 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:53:50 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:53:50 --> URI Class Initialized
+INFO - 2018-07-11 23:53:50 --> Router Class Initialized
+INFO - 2018-07-11 23:53:50 --> Output Class Initialized
+INFO - 2018-07-11 23:53:50 --> Security Class Initialized
+DEBUG - 2018-07-11 23:53:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:53:50 --> Input Class Initialized
+INFO - 2018-07-11 23:53:50 --> Language Class Initialized
+INFO - 2018-07-11 23:53:50 --> Loader Class Initialized
+INFO - 2018-07-11 23:53:50 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:53:50 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:53:50 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:53:50 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:53:50 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:53:50 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:53:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:53:50 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:53:50 --> Controller Class Initialized
+INFO - 2018-07-11 23:53:50 --> Model Class Initialized
+INFO - 2018-07-11 23:53:50 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:53:50 --> Model Class Initialized
+INFO - 2018-07-11 23:53:50 --> Model Class Initialized
+INFO - 2018-07-11 23:53:50 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:53:50 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:53:50 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:53:50 --> Final output sent to browser
+DEBUG - 2018-07-11 23:53:50 --> Total execution time: 0.1530
+INFO - 2018-07-11 23:54:02 --> Config Class Initialized
+INFO - 2018-07-11 23:54:02 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:54:02 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:54:02 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:54:02 --> URI Class Initialized
+INFO - 2018-07-11 23:54:02 --> Router Class Initialized
+INFO - 2018-07-11 23:54:02 --> Output Class Initialized
+INFO - 2018-07-11 23:54:02 --> Security Class Initialized
+DEBUG - 2018-07-11 23:54:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:54:02 --> Input Class Initialized
+INFO - 2018-07-11 23:54:02 --> Language Class Initialized
+INFO - 2018-07-11 23:54:02 --> Loader Class Initialized
+INFO - 2018-07-11 23:54:02 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:54:02 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:54:02 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:54:02 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:54:02 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:54:02 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:54:02 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:54:02 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:54:02 --> Controller Class Initialized
+INFO - 2018-07-11 23:54:02 --> Model Class Initialized
+INFO - 2018-07-11 23:54:02 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:54:02 --> Model Class Initialized
+INFO - 2018-07-11 23:54:02 --> Model Class Initialized
+INFO - 2018-07-11 23:54:02 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:54:02 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:54:02 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:54:02 --> Final output sent to browser
+DEBUG - 2018-07-11 23:54:02 --> Total execution time: 0.2280
+INFO - 2018-07-11 23:54:20 --> Config Class Initialized
+INFO - 2018-07-11 23:54:20 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:54:20 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:54:20 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:54:20 --> URI Class Initialized
+INFO - 2018-07-11 23:54:20 --> Router Class Initialized
+INFO - 2018-07-11 23:54:20 --> Output Class Initialized
+INFO - 2018-07-11 23:54:20 --> Security Class Initialized
+DEBUG - 2018-07-11 23:54:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:54:20 --> Input Class Initialized
+INFO - 2018-07-11 23:54:20 --> Language Class Initialized
+INFO - 2018-07-11 23:54:20 --> Loader Class Initialized
+INFO - 2018-07-11 23:54:20 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:54:20 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:54:20 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:54:20 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:54:20 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:54:20 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:54:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:54:20 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:54:20 --> Controller Class Initialized
+INFO - 2018-07-11 23:54:20 --> Model Class Initialized
+INFO - 2018-07-11 23:54:20 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:54:20 --> Model Class Initialized
+INFO - 2018-07-11 23:54:20 --> Model Class Initialized
+INFO - 2018-07-11 23:54:20 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:54:20 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:54:20 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:54:20 --> Final output sent to browser
+DEBUG - 2018-07-11 23:54:20 --> Total execution time: 0.1730
+INFO - 2018-07-11 23:56:51 --> Config Class Initialized
+INFO - 2018-07-11 23:56:51 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:56:51 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:56:51 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:56:51 --> URI Class Initialized
+INFO - 2018-07-11 23:56:51 --> Router Class Initialized
+INFO - 2018-07-11 23:56:51 --> Output Class Initialized
+INFO - 2018-07-11 23:56:51 --> Security Class Initialized
+DEBUG - 2018-07-11 23:56:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:56:51 --> Input Class Initialized
+INFO - 2018-07-11 23:56:51 --> Language Class Initialized
+INFO - 2018-07-11 23:56:51 --> Loader Class Initialized
+INFO - 2018-07-11 23:56:51 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:56:51 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:56:51 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:56:51 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:56:51 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:56:51 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:56:51 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:56:51 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:56:51 --> Controller Class Initialized
+INFO - 2018-07-11 23:56:51 --> Model Class Initialized
+INFO - 2018-07-11 23:56:51 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:56:54 --> Model Class Initialized
+INFO - 2018-07-11 23:56:54 --> Model Class Initialized
+INFO - 2018-07-11 23:56:54 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:56:54 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:56:54 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:56:54 --> Final output sent to browser
+DEBUG - 2018-07-11 23:56:54 --> Total execution time: 3.1832
+INFO - 2018-07-11 23:57:15 --> Config Class Initialized
+INFO - 2018-07-11 23:57:15 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:57:15 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:57:16 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:57:16 --> URI Class Initialized
+INFO - 2018-07-11 23:57:16 --> Router Class Initialized
+INFO - 2018-07-11 23:57:16 --> Output Class Initialized
+INFO - 2018-07-11 23:57:16 --> Security Class Initialized
+DEBUG - 2018-07-11 23:57:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:57:16 --> Input Class Initialized
+INFO - 2018-07-11 23:57:16 --> Language Class Initialized
+INFO - 2018-07-11 23:57:16 --> Loader Class Initialized
+INFO - 2018-07-11 23:57:16 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:57:16 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:57:16 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:57:16 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:57:16 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:57:16 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:57:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:57:16 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:57:16 --> Controller Class Initialized
+INFO - 2018-07-11 23:57:16 --> Model Class Initialized
+INFO - 2018-07-11 23:57:16 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:57:19 --> Model Class Initialized
+INFO - 2018-07-11 23:57:19 --> Model Class Initialized
+INFO - 2018-07-11 23:57:19 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:57:19 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:57:19 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:57:19 --> Final output sent to browser
+DEBUG - 2018-07-11 23:57:19 --> Total execution time: 3.2192
+INFO - 2018-07-11 23:57:34 --> Config Class Initialized
+INFO - 2018-07-11 23:57:34 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:57:34 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:57:34 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:57:34 --> URI Class Initialized
+INFO - 2018-07-11 23:57:34 --> Router Class Initialized
+INFO - 2018-07-11 23:57:34 --> Output Class Initialized
+INFO - 2018-07-11 23:57:34 --> Security Class Initialized
+DEBUG - 2018-07-11 23:57:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:57:34 --> Input Class Initialized
+INFO - 2018-07-11 23:57:34 --> Language Class Initialized
+INFO - 2018-07-11 23:57:34 --> Loader Class Initialized
+INFO - 2018-07-11 23:57:34 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:57:34 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:57:34 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:57:34 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:57:34 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:57:34 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:57:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:57:34 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:57:34 --> Controller Class Initialized
+INFO - 2018-07-11 23:57:34 --> Model Class Initialized
+INFO - 2018-07-11 23:57:34 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:57:34 --> Model Class Initialized
+INFO - 2018-07-11 23:57:34 --> Model Class Initialized
+INFO - 2018-07-11 23:57:34 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:57:34 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:57:34 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:57:34 --> Final output sent to browser
+DEBUG - 2018-07-11 23:57:34 --> Total execution time: 0.1780
+INFO - 2018-07-11 23:57:47 --> Config Class Initialized
+INFO - 2018-07-11 23:57:47 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:57:47 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:57:47 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:57:47 --> URI Class Initialized
+INFO - 2018-07-11 23:57:47 --> Router Class Initialized
+INFO - 2018-07-11 23:57:47 --> Output Class Initialized
+INFO - 2018-07-11 23:57:47 --> Security Class Initialized
+DEBUG - 2018-07-11 23:57:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:57:47 --> Input Class Initialized
+INFO - 2018-07-11 23:57:47 --> Language Class Initialized
+INFO - 2018-07-11 23:57:47 --> Loader Class Initialized
+INFO - 2018-07-11 23:57:47 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:57:47 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:57:47 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:57:47 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:57:47 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:57:47 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:57:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:57:47 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:57:47 --> Controller Class Initialized
+INFO - 2018-07-11 23:57:47 --> Model Class Initialized
+INFO - 2018-07-11 23:57:47 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:57:47 --> Model Class Initialized
+INFO - 2018-07-11 23:57:47 --> Model Class Initialized
+INFO - 2018-07-11 23:57:47 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:57:47 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:57:47 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:57:47 --> Final output sent to browser
+DEBUG - 2018-07-11 23:57:47 --> Total execution time: 0.1730
+INFO - 2018-07-11 23:58:09 --> Config Class Initialized
+INFO - 2018-07-11 23:58:09 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:58:09 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:58:09 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:58:09 --> URI Class Initialized
+INFO - 2018-07-11 23:58:09 --> Router Class Initialized
+INFO - 2018-07-11 23:58:09 --> Output Class Initialized
+INFO - 2018-07-11 23:58:09 --> Security Class Initialized
+DEBUG - 2018-07-11 23:58:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:58:09 --> Input Class Initialized
+INFO - 2018-07-11 23:58:09 --> Language Class Initialized
+INFO - 2018-07-11 23:58:09 --> Loader Class Initialized
+INFO - 2018-07-11 23:58:09 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:58:09 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:58:09 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:58:09 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:58:09 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:58:09 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:58:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:58:09 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:58:09 --> Controller Class Initialized
+INFO - 2018-07-11 23:58:09 --> Model Class Initialized
+INFO - 2018-07-11 23:58:09 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:58:09 --> Model Class Initialized
+INFO - 2018-07-11 23:58:09 --> Model Class Initialized
+INFO - 2018-07-11 23:58:09 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:58:09 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:58:09 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:58:09 --> Final output sent to browser
+DEBUG - 2018-07-11 23:58:09 --> Total execution time: 0.1650
+INFO - 2018-07-11 23:58:45 --> Config Class Initialized
+INFO - 2018-07-11 23:58:45 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:58:45 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:58:45 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:58:45 --> URI Class Initialized
+INFO - 2018-07-11 23:58:45 --> Router Class Initialized
+INFO - 2018-07-11 23:58:45 --> Output Class Initialized
+INFO - 2018-07-11 23:58:45 --> Security Class Initialized
+DEBUG - 2018-07-11 23:58:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:58:45 --> Input Class Initialized
+INFO - 2018-07-11 23:58:45 --> Language Class Initialized
+INFO - 2018-07-11 23:58:45 --> Loader Class Initialized
+INFO - 2018-07-11 23:58:45 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:58:45 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:58:45 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:58:45 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:58:45 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:58:45 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:58:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:58:45 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:58:45 --> Controller Class Initialized
+INFO - 2018-07-11 23:58:45 --> Model Class Initialized
+INFO - 2018-07-11 23:58:45 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:58:45 --> Model Class Initialized
+INFO - 2018-07-11 23:58:45 --> Model Class Initialized
+INFO - 2018-07-11 23:58:45 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:58:45 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:58:45 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:58:45 --> Final output sent to browser
+DEBUG - 2018-07-11 23:58:45 --> Total execution time: 0.1810
+INFO - 2018-07-11 23:58:54 --> Config Class Initialized
+INFO - 2018-07-11 23:58:54 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:58:54 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:58:54 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:58:54 --> URI Class Initialized
+INFO - 2018-07-11 23:58:54 --> Router Class Initialized
+INFO - 2018-07-11 23:58:54 --> Output Class Initialized
+INFO - 2018-07-11 23:58:54 --> Security Class Initialized
+DEBUG - 2018-07-11 23:58:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:58:54 --> Input Class Initialized
+INFO - 2018-07-11 23:58:54 --> Language Class Initialized
+INFO - 2018-07-11 23:58:54 --> Loader Class Initialized
+INFO - 2018-07-11 23:58:54 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:58:54 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:58:54 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:58:54 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:58:54 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:58:54 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:58:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:58:54 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:58:54 --> Controller Class Initialized
+INFO - 2018-07-11 23:58:54 --> Model Class Initialized
+INFO - 2018-07-11 23:58:54 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:58:54 --> Model Class Initialized
+INFO - 2018-07-11 23:58:54 --> Model Class Initialized
+INFO - 2018-07-11 23:58:54 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:58:54 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:58:54 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:58:54 --> Final output sent to browser
+DEBUG - 2018-07-11 23:58:54 --> Total execution time: 0.1750
+INFO - 2018-07-11 23:59:21 --> Config Class Initialized
+INFO - 2018-07-11 23:59:21 --> Hooks Class Initialized
+DEBUG - 2018-07-11 23:59:21 --> UTF-8 Support Enabled
+INFO - 2018-07-11 23:59:21 --> Utf8 Class Initialized
+INFO - 2018-07-11 23:59:21 --> URI Class Initialized
+INFO - 2018-07-11 23:59:21 --> Router Class Initialized
+INFO - 2018-07-11 23:59:21 --> Output Class Initialized
+INFO - 2018-07-11 23:59:21 --> Security Class Initialized
+DEBUG - 2018-07-11 23:59:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2018-07-11 23:59:21 --> Input Class Initialized
+INFO - 2018-07-11 23:59:21 --> Language Class Initialized
+INFO - 2018-07-11 23:59:21 --> Loader Class Initialized
+INFO - 2018-07-11 23:59:21 --> Helper loaded: url_helper
+INFO - 2018-07-11 23:59:21 --> Helper loaded: file_helper
+INFO - 2018-07-11 23:59:21 --> Helper loaded: form_helper
+INFO - 2018-07-11 23:59:21 --> Helper loaded: date_helper
+INFO - 2018-07-11 23:59:21 --> Form Validation Class Initialized
+INFO - 2018-07-11 23:59:21 --> Upload Class Initialized
+DEBUG - 2018-07-11 23:59:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2018-07-11 23:59:21 --> Session: Class initialized using 'files' driver.
+INFO - 2018-07-11 23:59:21 --> Controller Class Initialized
+INFO - 2018-07-11 23:59:21 --> Model Class Initialized
+INFO - 2018-07-11 23:59:21 --> Database Driver Class Initialized
+INFO - 2018-07-11 23:59:24 --> Model Class Initialized
+INFO - 2018-07-11 23:59:24 --> Model Class Initialized
+INFO - 2018-07-11 23:59:24 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/header.php
+INFO - 2018-07-11 23:59:24 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\contacto/contacto.php
+INFO - 2018-07-11 23:59:24 --> File loaded: C:\xampp\htdocs\SIG-ATS\application\views\templates/footer.php
+INFO - 2018-07-11 23:59:24 --> Final output sent to browser
+DEBUG - 2018-07-11 23:59:24 --> Total execution time: 3.2012
+>>>>>>> master
+DEBUG - 2018-07-11 23:23:58 --> UTF-8 Support Enabled
+DEBUG - 2018-07-11 23:23:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-11 23:23:58 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-11 23:23:58 --> Total execution time: 0.1737
+DEBUG - 2018-07-11 23:24:00 --> UTF-8 Support Enabled
+DEBUG - 2018-07-11 23:24:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-07-11 23:24:00 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2018-07-11 23:24:00 --> Total execution time: 0.1927
